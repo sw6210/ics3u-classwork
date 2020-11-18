@@ -1,0 +1,193 @@
+Wake up and go to (online) school
+------------------------
+    - wake up
+        - open eyes
+    - get out of bed
+        - sit up from laying down
+        - take one leg off the bed at a time
+        - stand up straight
+        - walk out of the bedroom and into the bathroom
+    - use bathroom 
+        - sit on the toilet and use it
+        - thoroughly wash hands with soap and water
+        - grab a face cloth and run under warm water
+        - bring towel in cotact with face and gently cleanse
+        - put used towel in the bin
+        - exit bathroom
+    - go downstairs
+        - with alternating feet, move down the stairs one step at a time
+        - continue until the end is reached
+    - eat breakfast
+        - walk into the kitchen
+        - reach for the fridge door and pull to open
+        - reach hand inside the fridge and grab yogurt container
+        - take hand out of fridge with yogurt
+        - open the lid of the container and scoop about half a cup into a bowl
+        - walk to cabinets and open the door
+        - reach into cabinet and grab granola
+        - pour granola into bowl
+        - sit down at a table and scoop the food into mouth
+        - wash the bowl and spoon and place both objects on the drying rack
+    - brush teeth
+        - hold toothbrush in one hand and squeeze toothpaste using the other
+        - close the toothpaste cap
+        - place the bristles against teeth and gently make circular motions
+        - after about 2 minutes, open the tap and rinse mouth
+    - organize desk
+        - walk until I reach my desk
+        - if messy, throw away garbage, place binders and loose paper nicely
+    - join online class
+        - sit down at desk and open laptop
+        - with right hand, move the mouse and click on the google meet link
+        - wait for class to begin
+
+In my break-down, I was able to identify that there are some basic programming concepts that could be seen. 
+Some simple commands that I noticed in this routine include walking in and out of rooms, taking steps up or down the stairs, and pulling open handles/doors. 
+One example of a conditional statement in the break-down would be cleaning and organizing my desk. If my desk is messy, then I would tidy up and organize everything. However, if it is relatively clean, then I would skip over this step and continue on with the rest of the break-down. 
+Looping and repetition can be seen whenever I mentioned walking in and out of different rooms of the house. 
+
+
+Vending machine from a human perspective
+-----------------------------------------
+You get a bag of chips from a vending machine
+    - approach machine
+        - walk until you are within arms reach of the machine
+    - determine the number for the flavour wanted
+        - search for the specific flavour
+        - look just below it for the ID number (remember that number)
+    - insert appropriate amount of money
+        - look beside the ID number for the price of the chips
+        - take out some money greater or equal to that amonunt
+        - place the money into the intake
+    - key-in the number for the flavour
+    - get bag from bottom of machine
+        - bend down
+        - reach arm into the slot
+        - grab chips
+        - pull arm out with the chips
+        
+Vending machine from the machine's perspective
+----------------------------------------------
+    - once enough money is detected and successfully inserted, wait for an ID number to be keyed-in
+        - if no money is inserted, nothing will happen
+        - if not enough money is inserted, wait for more
+        - if incorrect amount is inserted, release money back to customer
+    - once ID number is keyed-in, release an item of that ID
+        - wait for customer to select available product
+        - generate the product for customer to take 
+        - if customer paid more than what the product is worth, release change
+            - (amount inserted into machine) - (cost of item(s))
+
+Based on the break-down of a vending machine's perspective, a reoccuring programming concept are if/conditional statements. 
+A vending machine would have to consider many factors such as whether or not enough money has been paid, how many items are being purchased, and whether or not there will be change. 
+
+
+The cookie is too big for the glass
+-----------------------------------
+1. How do you fix this problem?
+    - split the cookie in half
+        - grab cookie with both hands with both thumbs placed to the centre of the cookie
+        - apply pressure with thumbs and slowly turn both hands away from each other
+        - once the cookie is split apart, dip one half into the glass
+        
+    - grab a glass with an opening wider than the diameter of the cookie
+        - take cookie and a ruler
+        - using the ruler, measure the diameter of the cookie (remember the measurement)
+        - walk to your cabinet and open the doors
+        - find a glass with a larger opening than the measurement
+        - pour the milk from the original glass into the new glass
+        
+2. How can you prevent this problem?
+    - before pouring milk into the glass, make sure the cookie fits
+        - look at the size of the cookie
+        - walk to your cabinet
+        - take out a variety of glasses
+            - reach arm into the cabinet
+            - grab at least 2 different glasses with different opening sizes
+        - compare the cookie to the glasses
+            - consider how wide the cookie is 
+            - if the cookie is wider than a glass, put that glass back into the cabinet
+            - if the cookie is slimmer than the glass, keep the glass
+        - take the milk out of the fridge
+            - lift one arm and grip the handle of the fridge
+            - gently tug in the direction of where you are
+            - reach into the fridge
+            - grab milk and take arm out
+        - pour milk into glass
+            - hold the milk above the glass
+            - slowly tilt the carton until milk comes out of the opening
+            - keep tilting until the glass is full
+        
+    - buy smaller cookies
+        - at the grocery store, compare cookie sizes
+        - when choosing cookies, consider the diameter 
+            - keep in mind that smaller cookies will fit better
+        - when you have decided on what to purchase, reach for the container
+        - place the cookies into the cart
+        - walk and push the cart until you reach check out
+        - look at the price of the cookies (remember the cost)
+        - take an amount of money equal to or greater than the amount
+        - take cookies home with you
+        
+3. How can this problem be solved with an app?
+- An app that helps you filter and find glassware sizes depending on the cookie size 
+- app features/requirements:
+    - location of user
+        - users input their exact or general location (app remembers this info)
+        - app takes the info and uses it to filter out store locations near the user
+        - the location is stored as criteria for best matching results
+    - camera app to measure cookie without the user needing a ruler
+        - app opens camera and uses estimation and proportions to measure the diameter of the cookie
+        - app stores the measurements and filters out glassware that is too small
+
+Step by step user instructions:
+    - download the app on a mobile device
+        - in the search bar of the app store, type in the name of the app
+        - press install
+    - read and accept terms and conditions
+    - input location
+        - type in address or select a general region in which you live
+    - measure the cookie
+        - open the camera within the app and point it towards the cookie
+        - an estimated measurement of the diameter will be provided and saved 
+    - search through glassware that interest you
+        - scroll through images of products from stores near you
+        - find a glass that you like
+        - tap on the product for details (store name, price, material, etc.)
+        
+
+People hogging seats with bags
+------------------------------
+1. How do you fix this problem?
+    - limit the number of items a person can carry to be able to board public transit
+        - bus drivers moniter and inspect everyone that boards the bus
+        - if they are carrying more than 2 items, they can't board
+        
+    - create a new rule/law
+        - people who need to occupy more than 1 seat must pay for the amount of seats they use
+        - Ex: if a person sits on a seat and their bags occupy another 2 seats, they must pay 3 times as much as normal
+        
+2. How can you prevent this problem?
+    - stores can make bags that are more practical rather than fashionable
+        - stores can sell better bag brands
+        - work with good manufacturing companies
+        
+    - invest in better quality bags
+        - shop at stores with high quality bags
+            - consider material, durability, convenience, etc.
+        - prioritize quality over appearance
+            - when shopping, compare bags by how durable and comfortable they are
+            - after quality, then shop for appearances
+
+3. How can this problem be solved with a technological solution?
+Bus ticket machines on every seat
+    - each bus seat has added features
+        - every seat has a small machine where tickets can be scanned or inserted
+        - each seat will also include a weight detector
+        - the weight detector stops working once a ticket has been scanned
+    - before boarding the bus, passengers will be expected to pay beforehand and get one ticket per person
+    - after entering, passengers choose 1 seat
+    - they insert their ticket or scan it into the machine of one of the seats 
+    - the seat weight detector stops working and does not detect your body weight 
+    - if a passenger were to place their bag on another seat (that has not scanned another ticket) then the weight of the bag is detected
+    - the bus driver is then notified and will tell that passenger to move their bag
