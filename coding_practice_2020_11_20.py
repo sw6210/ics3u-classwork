@@ -19,5 +19,5 @@ print(f"The volume of the rectangular prism is {volume} units squared.")
 answer = input("Did you join a Google Meet and mute the teacher? Type yes or no: ")
 if answer == "yes":
     print("That's probably not a good idea.")
-if answer == "no":
+else:
     print("Ok. Good.")
