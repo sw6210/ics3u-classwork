@@ -14,3 +14,10 @@ width = int(input("Enter the width of the rectangular prism: "))
 height = int(input("Enter the height of the rectangular prism: "))
 volume = length * width * height
 print(f"The volume of the rectangular prism is {volume} units squared.")
+
+# 4. Create a program that will ask the user if they just join a Google Meet and mute the teacher. If they enter yes say "That's probably not a good idea". If they say no, then output "Ok. Good.".
+answer = input("Did you join a Google Meet and mute the teacher? Type yes or no: ")
+if answer == "yes":
+    print("That's probably not a good idea.")
+if answer == "no":
+    print("Ok. Good.")
