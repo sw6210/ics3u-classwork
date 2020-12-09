@@ -124,4 +124,5 @@ def centered_average(nums: List[int]) -> int:
 result = centered_average([1, 2, 3, 4, 100])
 print(result)
 
-# 
+# sum_13
+
