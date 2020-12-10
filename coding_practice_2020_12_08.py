@@ -124,5 +124,23 @@ def centered_average(nums: List[int]) -> int:
 result = centered_average([1, 2, 3, 4, 100])
 print(result)
 
-# sum_13
+
+# sum_67
+def sum_67(nums: List[int]) -> int:
+    total = 0
+    in_section = False
+    for num in nums:
+        if num == 6:
+            in_section = True
+        if not in_section:
+            total += num
+        elif num == 7:
+                in_section = False
+    return total
+
+result = sum_67([1, 2, 2])
+print(result)
+
+
+# 
 
