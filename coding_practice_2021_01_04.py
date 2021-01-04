@@ -2,12 +2,12 @@ from math import sqrt
 
 # Exercise 81
 def main():
-    a = int(input("Enter the length of side a in cm: "))
-    b = int(input("Enter the length of side b in cm: "))
+    a = float(input("Enter the length of side a in cm: "))
+    b = float(input("Enter the length of side b in cm: "))
     hypoteneuse_length = hypoteneuse(a, b)
     print(f"The hypoteneuse of the triangle is {hypoteneuse_length}cm.")
 
-def hypoteneuse(a: int, b: int):
+def hypoteneuse(a: float, b: float) -> float:
     return sqrt(a*a + b*b)
 
 main()
