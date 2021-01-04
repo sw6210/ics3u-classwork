@@ -55,3 +55,32 @@ def median(a: int, b: int, c: int):
     return a + b + c - min(a, b, c) - max(a, b, c)
 
 main()
+
+
+# Exercise 85
+def main():
+    a = int(input("Enter an integer: "))
+    ordinal_number = get_ordinal(a)
+    print(ordinal_number)
+
+def get_ordinal(a: int) -> str:
+    ordinal_map = [
+        "",
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth",
+        "sixth",
+        "seventh",
+        "eighth",
+        "ninth",
+        "tenth",
+        "eleventh",
+        "twelfth"
+    ]
+    if a == 0 or a > 12:
+        return ""
+    return ordinal_map[a]
+
+main()
