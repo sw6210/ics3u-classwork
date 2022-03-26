@@ -42,3 +42,5 @@ def test_array_count9():
 
 def test_array_front9():
     assert array_front9([1, 2, 9, 3, 4]) == True
+
+    
